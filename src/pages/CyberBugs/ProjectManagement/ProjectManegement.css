@@ -1,0 +1,76 @@
+.bg_project {
+    padding: 0 50px 20px 50px;
+}
+
+.header_data_user {
+
+    width: 100%;
+    height: 50px;
+    background-color: #082130;
+}
+
+
+.btn_edit {
+    color: white !important;
+    background-color: #46b6be !important;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+
+}
+
+.btn_edit:hover {
+    transform: translate(0, -3px) !important;
+    box-shadow: 0 20px 80px -10px #46b6be !important;
+}
+
+.btn_delete {
+    color: #46b6be !important;
+    background-color: #082130 !important;
+    border: 2px solid #1e7980 !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+.btn_delete:hover {
+    transform: translate(0, -3px) !important;
+    box-shadow: 0 20px 80px -10px #46b6be !important;
+}
+
+.ant-btn {
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.ant-btn-primary {
+    background: #46b6be !important;
+    border-color: #46b6be !important;
+}
+
+.ant-btn-sm {
+    color: #082130 !important;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* Tạo hình tròn cho hình ảnh */
+    margin-right: 8px;
+    border: 2px solid #00c3d1;
+}
+
+
+.btn-logout {
+    color: black;
+    font-weight: 600;
+
+}
+.btn-logout:hover {
+    color: #46b6be ;
+}

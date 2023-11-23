@@ -1,0 +1,120 @@
+.bg_login_account {
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px;
+    box-shadow: 5px 8px 20px 2px #46b6be3f !important;
+
+    /* height: 500px; */
+
+
+}
+
+.move_login {
+    /* margin: auto 0 auto 0 !important; */
+    /* padding-top: 150px;
+    padding-bottom: 150px; */
+    padding: 150px 50px 150px 50px !important;
+}
+
+.btn_login {
+    color: white !important;
+    background-color: #46b6be !important;
+    border: 2px solid transparent !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+.btn_login:hover {
+    transform: translate(0, -3px) !important;
+    box-shadow: 0 20px 80px -10px #46b6be !important;
+}
+
+.btn_register {
+    color: #46b6be !important;
+    background-color: #082130 !important;
+    border: 2px solid #1e7980 !important;
+    border-radius: 10px !important;
+    font-weight: 600 !important;
+}
+
+.btn_register:hover {
+    transform: translate(0, -3px) !important;
+    box-shadow: 0 20px 80px -10px #46b6be !important;
+}
+
+.borderInput {
+    border: 2px solid transparent !important;
+    
+
+}
+
+
+
+.borderInput:hover {
+    border: 2px solid #46b6be !important;
+
+}
+
+.button-icon {
+    transition: all 0.3s;
+    border-color: #46b6be !important;
+    color: #46b6be !important;
+}
+
+.button-icon:hover {
+    transform: scale(1.2);
+    background-color: #46b6be;
+    box-shadow: 0 5px 50px 5px #46b6be91 !important;
+}
+
+/* REGISTER NẰM Ở ĐÂY */
+.bg_login_register {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px) !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px;
+    box-shadow: 5px 8px 20px 2px #46b6be3f !important;
+
+}
+
+.move_register {    
+    padding: 60px 100px 60px 100px;
+}
+
+.ant-drawer-header {
+    background-color: rgba(15,37,61,1)!important;
+    border-bottom: 1px solid transparent!important;
+    color: white !important;
+}
+.ant-drawer-title{
+    color: white !important;
+    text-transform: uppercase !important;
+    font-weight: bold !important;
+}
+.ant-drawer-body {
+    background-image: url('../../../assets/img/bg_register.jpg')!important;
+    
+    background-position: right !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+    
+}
+.ant-drawer-body::before{
+    content: ""!important;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    width: 100%!important;
+    height: 100%!important;
+    background: rgba(15,37,61,0.5) !important;
+    
+}
+
+.bg_edit_user{
+    background-color: transparent !important;
+    backdrop-filter: blur(20px) !important;
+    border: 2px solid transparent !important;
+    border-radius: 30px;
+    box-shadow: 5px 8px 20px 2px #46b6be3f !important;
+}

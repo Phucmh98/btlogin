@@ -1,0 +1,15 @@
+.bg_img_login {
+    background-image: url('../../assets/img/bg_login.jpg')!important;    
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+  }
+  .bg_img_login::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(15,37,61,0.1) 30%, rgba(15,37,61,1) 100%);
+}
